@@ -1,0 +1,62 @@
+body {
+    background-image: url('file2.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+input[type="text"], button {
+    margin-right: 10px;
+}
+
+#posts-list, #tasks-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#posts-list li, #tasks-list li {
+    margin: 10px 0;
+}
+
